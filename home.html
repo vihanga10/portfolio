@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vihanga-portfolio</title>
+
+<!-- ✅ Font Awesome without integrity -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+
+    <!--add css file-->
+    <link rel="stylesheet" href="home.css">
+
+
 </head>
 <body>
-    
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="#" class="brand-name">Vihanga</a>
+    </div>
+    <div class="nav-right" id="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#service" class="nav-link">Service</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+    </div>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home" class="home-section">
+  <div class="home-left">
+    <h3>Hello, It's Me</h3>
+    <h1>Vihanga Madushamini</h1>
+    <h2>I am a <span class="highlight">Frontend Developer</span></h2>
+
+  <div class="social-links">
+  <a href="https://www.behance.net" target="_blank"><i class="fa-brands fa-behance"></i></a>
+  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+
+
+    <a href="your-cv.pdf" download class="btn-cv">Download CV</a>
+  </div>
+
+  <div class="home-right">
+    <img src="me.jpg" alt="Vihanga" />
+  </div>
+</section>
+
+  <section id="about"><h2>About Section</h2></section>
+  <section id="service"><h2>Service Section</h2></section>
+  <section id="projects"><h2>Projects Section</h2></section>
+  <section id="certificates"><h2>Certificates Section</h2></section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vihanga. All rights reserved.</p>
+    <div class="back-to-top" id="backToTop">↑</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
+
 </html>
